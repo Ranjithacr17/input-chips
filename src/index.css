@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.chip {
+  border: 1px solid gray;
+  width: 150px;
+  border-radius: 20px;
+  display: flex;
+  flex: wrap;
+  padding: 4px;
+  justify-content: space-between;
+}
+
+.chip-card {
+  display: flex;
+  flex: wrap;
+  margin: 4px;
+}
+
+#guess-input {
+  margin: 4px;
+}
+
+.button {
+  display: flex;
+  flex: wrap;
+  margin: 4px;
+}
